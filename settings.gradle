@@ -1,0 +1,2 @@
+rootProject.name='Market Observer 3'
+include ':app'

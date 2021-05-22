@@ -1,14 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-        storePassword 'JojoPotato'
-            keyAlias 'key0'
-            keyPassword 'JojoPotato'
-            storeFile file('C:\\Users\\patry\\Desktop\\backup 12.04.20\\AndroidKey1.jks')
-        }
-    }
+   ${{SIGNING_PROPERTIES}}
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
 
